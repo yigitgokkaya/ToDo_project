@@ -1,0 +1,9 @@
+.navbar{
+    text-align: center;
+    background-color: aqua;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
