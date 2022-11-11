@@ -2,7 +2,11 @@ import React from 'react'
 
 const Register = () => {
   return (
-    <div>Register</div>
+    <div>Register
+      <li>
+        <a href='/'>Back</a>
+      </li>
+    </div>
   )
 }
 
