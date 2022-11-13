@@ -1,16 +1,8 @@
-import React from 'react'
-import '../styling/Home.css'
-
+import React from "react";
+import "../styling/Home.css";
 
 const Home = () => {
-  return (
-    <div >
-      <li>
-        <a href='/register'>Register</a>
-      </li>
-    </div>
-    
-  )
-}
+  return <div>Home</div>;
+};
 
-export default Home
+export default Home;
