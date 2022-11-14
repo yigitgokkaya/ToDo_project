@@ -19,13 +19,12 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route element = {<PrivateRoutes/>}>
-        <Route path="/home" exact element={<Home />} />
+        <Route element={<PrivateRoutes />}>
+          <Route path="/home" exact element={<Home />} />
         </Route>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="*" element={<Error />} />
-        
       </Routes>
     </BrowserRouter>
   );
