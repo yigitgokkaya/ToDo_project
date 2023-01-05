@@ -1,0 +1,15 @@
+.login_controls {
+  margin: 180px;
+  display: flex;
+  border: 1px solid #969696;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.uname_controls {
+  margin: 5px;
+}
+.action_controls {
+  margin: 10px;
+}
